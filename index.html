@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Wallet Whisperer</title>
+    <link rel="icon" type="image/x-icon" href="photo1.png">
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body{
+          background-image: url(top-view-finance-business-elements_23-2148793757.avif);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size:100% 100%;
+      }
+  </style>
+  </head>
+  <body>
+    <h1 style="color:black";>Wallet Whisperer</h1>
+    <div class="container">
+      <h4 style="color: black">Your Balance</h4>
+      <h1 id="balance" style="color:black">₹0.00</h1>
+      <div class="inc-exp-container">
+        <div>
+          <h4 >Income</h4>
+          <p id="money-plus" class="money-plus">
+            +₹0.00
+          </p>
+        </div>
+        <div>
+          <h4 >Expense</h4>
+          <p id="money-minus" class="money-minus">
+            -₹0.00
+          </p>
+        </div>
+      </div>
+      
+      <br>
+        <a href="/add notes/index.html" class="button">
+          ADD NOTES
+        </a>
+
+
+        <a href="/videos/index.html" class="button">
+          SPEND WISE
+        </a>
+        
+
+
+      <br>
+      <h3 style="color: grey">History</h3>
+      <ul id="list" class="list">
+        <!-- <li class="minus">
+          Cash <span>-₹400</span
+          ><button class="delete-btn">x</button>
+        </li> -->
+      </ul>
+      <h3 style="color: grey">Add New Transaction</h3>
+      <form id="form">
+          <div class="form-control">
+              <label for="text" style="color: grey">Text</label>
+              <input type="text" id="text" placeholder="Enter Text...."/>
+          </div>
+          <div class="form-control">
+              <label for="amount" style="color: grey">Amount <br> (negative - expense ,positive - income )</label>
+              <input type="number" id="amount" placeholder="Enter amount..."> 
+          </div>
+          <button class="btn">All transaction</button>
+      </form>
+    </div>
+    <a href="https://in.investing.com/charts/stocks-charts" class="button1">
+      Stocks
+    </a>
+    <!-- JavaYscript Project  -->
+    <script src="script.js"></script>
+  </body>
+</html>
